@@ -1,111 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LanguageBuddy</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f6f7fb;
-      color: #222;
-    }
-
-    header {
-      background: linear-gradient(135deg, #6a5cff, #8fc9ff);
-      color: white;
-      padding: 70px 20px;
-      text-align: center;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    h2 {
-      color: #5a4ae3;
-    }
-
-    .card {
-      background: white;
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 20px;
-      background: #5a4ae3;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      margin-top: 12px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      color: #666;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nelson Mojica | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-  <h1>LanguageBuddy</h1>
-  <p>Your personal companion for practicing new languages</p>
-</header>
+  <!-- NAV -->
+  <nav>
+    <h1>Nelson Mojica</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<section>
-  <div class="card">
-    <h2>Project Overview</h2>
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Computer Science Student</h2>
     <p>
-      LanguageBuddy is a mobile application designed to help users practice
-      new languages through real conversations, session scheduling, and
-      progress tracking.
+      Passionate about building user focused applications, mobile development,
+      and software engineering.
     </p>
-  </div>
+  </section>
 
-  <div class="card">
-    <h2>Features</h2>
-    <ul>
-      <li>User authentication and profiles</li>
-      <li>Buddy discovery</li>
-      <li>Chat system with conversation history</li>
-      <li>Session scheduling</li>
-      <li>Ratings and progress tracking</li>
-    </ul>
-  </div>
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science student with experience in Android development,
+      Java, Kotlin, and modern UI design. I enjoy turning ideas into real
+      applications and focusing on clean, intuitive user experiences.
+    </p>
+  </section>
 
-  <div class="card">
-    <h2>Technology Stack</h2>
-    <ul>
-      <li>Android (Jetpack Compose)</li>
-      <li>Room Database</li>
-      <li>MVVM Architecture</li>
-      <li>GitHub Pages</li>
-    </ul>
-  </div>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
 
-  <div class="card">
-    <h2>Source Code</h2>
-    <a class="btn" href="https://github.com/nelsonm04/LanguageBuddy" target="_blank">
-      View on GitHub
-    </a>
-  </div>
-</section>
+    <div class="project-card">
+      <h3>LanguageBuddy</h3>
+      <p>
+        A mobile application built with Kotlin and Jetpack Compose that connects
+        users for language practice through chat and scheduled sessions.
+      </p>
+      <ul>
+        <li>Kotlin, Jetpack Compose</li>
+        <li>Room Database</li>
+        <li>Modern Material UI</li>
+      </ul>
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub Repo</a>
+        <a href="#" target="_blank">Demo</a>
+      </div>
+    </div>
 
-<footer>
-  © 2025 LanguageBuddy | Created by Nelson Mojica
-</footer>
+    <!-- You can duplicate this card for more projects -->
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>Java</span>
+      <span>Kotlin</span>
+      <span>Jetpack Compose</span>
+      <span>Android Studio</span>
+      <span>SQL / Room</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: nelson@example.com</p>
+    <p>
+      <a href="https://github.com/nelsonm04" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Nelson Mojica</p>
+  </footer>
 
 </body>
 </html>
